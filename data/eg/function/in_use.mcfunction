@@ -1,0 +1,1 @@
+execute if entity @s[tag=eg.machine1,tag=eg.machine2] if score @s tess.current_index matches 1 run function eg:in_use1

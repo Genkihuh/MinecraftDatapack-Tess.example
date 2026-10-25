@@ -1,0 +1,1 @@
+scoreboard objectives add eg.example_recipe dummy

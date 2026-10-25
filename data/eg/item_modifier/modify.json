@@ -1,0 +1,6 @@
+{
+    "type": "set_components",
+    "components": {
+        "enchantment_glint_override": true
+    }
+}

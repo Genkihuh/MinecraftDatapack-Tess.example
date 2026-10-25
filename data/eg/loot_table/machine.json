@@ -1,0 +1,39 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "bat_spawn_egg",
+                    "modifier": {
+                        "type": "set_components",
+                        "components": {
+                            "item_name": "example_machine",
+                            "item_model": "fletching_table",
+                            "entity_data":{
+                                "id": "marker",
+                                "Tags": [
+                                    "tess.load"
+                                ]
+                            },
+                            "custom_data": {
+                                "tess": {
+                                    "model": "fletching_table",
+                                    "machine_loot": "eg:machine",
+                                    "home": "eg:generator1",
+                                    "place_event": "playsound block.amethyst_block.place block @a[distance=..16]",
+                                    "destroy_event": "playsound block.amethyst_block.break block @a[distance=..16]",
+                                    "open_sound": "block.copper_chest_oxidized.open",
+                                    "close_sound": "block.copper_chest_oxidized.close",
+                                    "machine_name": [{"text":"CustomName","color": "dark_blue"}],
+                                    "tags":"eg.machine1,eg.machine2"
+                                }
+                            }
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "pools": [{
+        "rolls": 1,
+        "entries": [{
+            "type": "item",
+            "name": "structure_void",
+            "modifier": [{
+                "type": "set_components",
+                "components": {
+                    "custom_data": {
+                        "tess": {
+                            "if_ui": true,
+                            "type": "generator",
+                            "page_index": 1,
+                            "gui": [
+                                {"I":"eg:texture"},{"I":"tess:void"},{"I":"tess:void"},{"I":"tess:void"},{"I":"eg:border"},{"I":"eg:ingot"},{"I":"tess:bdr"},{"I":"eg:ingot"},{"I":"eg:set_home"},
+                                {"I":"eg:border"},{"I":"tess:void"},{"I":"tess:void"},{"I":"tess:void"},{"I":"eg:tip"},{"I":"eg:ingot"},{"I":"eg:ingot"},{"I":"eg:ingot"},{"I":"eg:goto2"},
+                                {"I":"eg:go_home"},{"I":"tess:void"},{"I":"tess:void"},{"I":"tess:void"},{"I":"eg:border"},{"I":"eg:ingot"},{"I":"eg:ingot"},{"I":"eg:ingot"},{"I":"eg:goto3"}
+                            ]
+                        }
+                    },
+                    "item_model":"air",
+                    "max_stack_size":1,
+                    "tooltip_display": {
+                        "hide_tooltip": true
+                    }
+                }
+            }]
+        }]
+    }]
+}

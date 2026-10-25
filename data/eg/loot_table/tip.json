@@ -1,0 +1,22 @@
+{
+    "pools": [{
+        "rolls": 1,
+        "entries": [{
+            "type": "item",
+            "name": "oak_sign",
+            "modifier": [{
+                "type": "set_components",
+                "components": {
+                    "custom_data": {
+                        "tess": {
+                            "if_ui": true,
+                            "type": "border"
+                        }
+                    },
+                    "max_stack_size":1,
+                    "item_name":"Copy this pattern"
+                }
+            }]
+        }]
+    }]
+}
