@@ -27,7 +27,8 @@
                                     "open_sound": "block.copper_chest_oxidized.open",
                                     "close_sound": "block.copper_chest_oxidized.close",
                                     "machine_name": [{"text":"CustomName","color": "dark_blue"}],
-                                    "tags":"eg.machine1,eg.machine2"
+                                    "tags":"eg.machine1,eg.machine2",
+                                    "brightness": {"block": 9,"sky": 9}
                                 }
                             }
                         }
